@@ -8,3 +8,4 @@ RUN cd vosk-api/python/example
 RUN wget https://alphacephei.com/vosk/models/vosk-model-en-us-0.22.zip
 RUN unzip vosk-model-en-us-0.22.zip
 RUN mv vosk-model-en-us-0.22 model
+RUN apt install ffmpeg -y
